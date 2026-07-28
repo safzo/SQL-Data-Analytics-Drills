@@ -12,6 +12,31 @@
 
 ---
 
+## 📖 About This Repository
+
+This repository serves as a dedicated hands-on sandbox for sharpening advanced **T-SQL query mechanics, database auditing patterns, and algorithmic problem-solving**. 
+
+Rather than focusing solely on basic `SELECT` statements, this collection demonstrates production-ready SQL logic designed to clean messy data, reconcile operational records, and optimize database performance.
+
+---
+
+### 💡 Core Focus Areas
+
+* **Algorithmic Problem Solving:** Structured, highly-commented solutions to standardized **LeetCode SQL** challenges covering multi-table joins, conditional aggregations, and subquery logic.
+* **Real-World Operational Analytics:** Practical T-SQL scripts modeled after manufacturing ERP scenarios—including data deduplication, physical vs. ERP balance reconciliation, and transactional audit trails.
+* **Advanced Query Patterns:** Extensive use of Common Table Expressions (**CTEs**), Window Functions (`ROW_NUMBER()`, `DENSE_RANK()`, `LEAD/LAG`), and dynamic data transformation (`CASE WHEN`, `CAST/CONVERT`).
+* **Query Quality & Performance:** Focus on writing clean, readable T-SQL code structured to reduce query latency and ensure high data fidelity.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+* **Database Engine:** Microsoft SQL Server (T-SQL)
+* **Development Tools:** SQL Server Management Studio (SSMS), VS Code
+* **Platforms:** LeetCode SQL 50, Local SQL Sandbox
+
+---
+
 ## 🎯 Progress Checklist
 
 - [x] **Phase 1:** Core `SELECT`, `WHERE`, and basic filtering drills
@@ -33,7 +58,7 @@
 ## 📌 Featured Query Solution
 
 <details>
-<summary><b>Click to expand: Deduplication via Window Functions</b></summary>
+<summary>Deduplication via Window Functions</summary>
 
 ```sql
 WITH RankedEntries AS (
